@@ -5,11 +5,15 @@
 
 /* == END = */
 
-@use '--examples--/lesson-05/button';
+// @use '--examples--/lesson-05/button';
 
-@use '--examples--/lesson-06/nesting';
-@use '--examples--/lesson-06/combinators';
-@use '--examples--/lesson-06/ampersand';
+// @use '--examples--/lesson-06/nesting';
+// @use '--examples--/lesson-06/combinators';
+// @use '--examples--/lesson-06/ampersand';
 
-@use '--examples--/lesson-07/badge';
-@use '--examples--/lesson-07/task';
+// @use '--examples--/lesson-07/badge';
+// @use '--examples--/lesson-07/task';
+
+@use 'base/fonts';
+@use 'components/alert';
+@use '--examples--/lesson-08/extend';
